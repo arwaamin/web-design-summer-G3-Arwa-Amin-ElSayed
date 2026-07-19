@@ -1,0 +1,64 @@
+h1 {
+    text-align: center;  
+    margin-bottom: 50px; 
+    font-family: sans-serif;
+}
+.contact_us {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.contact {
+    border-bottom: 3px solid orange;
+    display: inline;
+    padding-bottom: 23px;
+}
+p {
+    text-align: center;
+    color: gray;  
+}
+.container {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.inputs, 
+.textarea {
+    display: inline-block;  
+    width: 45%;             
+    vertical-align: top;     
+    box-sizing: border-box;  
+}
+.form input, 
+.form textarea {
+    width: 100%;           
+    padding: 20px 0;
+    border: none;
+    border-bottom: 1px solid #e0e0e0; 
+    font-size: 18px;
+    color: #333;
+    font-family: monospace;
+    box-sizing: border-box;
+    margin-bottom: 20px;     
+}
+.form input {
+    display: block;       
+    margin-right: 15%;   
+}
+.form textarea {
+    display: block;                  
+    height: 225px;
+    resize: none;
+    margin-left: 10%;
+}
+.button {
+    display: block;          
+    margin-top: 30px;
+    text-align: center;
+}
+.button button {
+    padding: 10px 30px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: orange;
+    border:none;
+}

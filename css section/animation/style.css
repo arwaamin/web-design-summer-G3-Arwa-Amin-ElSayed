@@ -1,0 +1,28 @@
+.street {
+    width: 100%;
+    display: block;
+    margin-top: 10% ;
+}
+.street img {
+    width: 100%;
+    display: block;
+}
+.car {
+    position: absolute; 
+    top: 50%; 
+    width: 300px; 
+    z-index: 10; 
+    animation: moveCar 5s linear infinite;
+}
+.car img {
+    width: 100%;
+    display: block;
+}
+@keyframes moveCar {
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: 100%; 
+    }
+}
